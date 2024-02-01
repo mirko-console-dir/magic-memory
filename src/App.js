@@ -81,6 +81,7 @@ function App() {
   return (
     <div className="App">
       <h1>Magic Memory</h1>
+      <div style={{position:' absolute', right: 100, top: 50, fontSize: '20px'}}>Ctrl + minus(-) to adapt the view to your screen</div>
       <button onClick={shuffleCards}>Start Game</button>
       <div className="card-grid">
         {/* pass props card images with props and pass to component function */}
