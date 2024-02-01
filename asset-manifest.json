@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/magic-memory/static/css/main.c5e6c26e.css",
+    "main.js": "/magic-memory/static/js/main.39946112.js",
+    "static/media/cover.jpg": "/magic-memory/static/media/cover.66a800629c3e3fd4d6b6.jpg",
+    "static/media/plat-1.jpg": "/magic-memory/static/media/plat-1.26fbbd186b4e3bfe54ba.jpg",
+    "static/media/plat-2.jpg": "/magic-memory/static/media/plat-2.cd6fd6f2c77ae0b26d6c.jpg",
+    "static/media/plat-6.jpg": "/magic-memory/static/media/plat-6.df4165d6abac9c63e612.jpg",
+    "static/media/plat-5.jpg": "/magic-memory/static/media/plat-5.6c96da14d452151657a7.jpg",
+    "static/media/plat-3.jpg": "/magic-memory/static/media/plat-3.49a74febe7a7d2b3c9d8.jpg",
+    "static/media/plat-4.jpg": "/magic-memory/static/media/plat-4.249128d66aca66197ba2.jpg",
+    "index.html": "/magic-memory/index.html",
+    "main.c5e6c26e.css.map": "/magic-memory/static/css/main.c5e6c26e.css.map",
+    "main.39946112.js.map": "/magic-memory/static/js/main.39946112.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5e6c26e.css",
+    "static/js/main.39946112.js"
+  ]
+}
