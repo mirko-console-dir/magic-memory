@@ -1,0 +1,42 @@
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.card {
+  position: relative;
+}
+.card_front,
+.card_back {
+  background: #1b1523;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.front,
+.back {
+  max-width: 200px;
+}
+/* picture */
+.card .card_front {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
+}
+.flipped .card_front {
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+}
+/* cover */
+.card .card_back {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+.flipped .card_back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
